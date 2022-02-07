@@ -8,8 +8,8 @@ docker -v
 # Cargoのインストール(WSL2内にインストール)
 sudo apt install build-essential
 curl https://sh.rustup.rs -sSf | sh
-echo 'export PATH=$HOME/.cargo/bin:$PATH' | tee -a .bashrc
-source .bashrc
+echo 'export PATH=$HOME/.cargo/bin:$PATH' | tee -a ~/.bashrc
+source ~/.bashrc
 # Rust及びCargoのツール群インストール
 rustup component add rustfmt rust-analysis rust-src
 cargo install cargo-edit
