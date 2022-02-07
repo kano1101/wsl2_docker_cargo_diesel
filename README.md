@@ -10,6 +10,8 @@ wsl --install
 wsl --set-version Ubuntu-20.04 2
 wsl --set-default-version 2
 ```
+これでWSL2のインストールが完了する
+
 同時にWSL2をZドライブなどに割り当てると良い
 
 ## 2. WindowsターミナルをMicrosoftストアからインストール(なくても良いが利便性上がるため)
@@ -24,6 +26,9 @@ wsl
 
 WSL2に入ることができたのが確認できたら下記を実行
 ```
+cd ~
+git clone git@github.com:kano1101/wsl2_docker_cargo_diesel.git
+cd wsl2_docker_cargo_diesel
 sudo chmod +x install.sh
 sudo bash install.sh
 ```
