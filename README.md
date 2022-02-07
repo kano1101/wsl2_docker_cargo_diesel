@@ -1,6 +1,8 @@
 # WindowsでRustのicedと、MysqlをDockerでを使うための設定
 https://kahoo.blog/howto-wsl2-docker-install/
 
+前提として、GitHubから落とすので初期設定を済ませておく
+
 ## 0. Windows Updateを実行してから行うこと
 
 ## 1. WSL2インストール
