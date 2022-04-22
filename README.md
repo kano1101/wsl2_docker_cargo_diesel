@@ -6,7 +6,7 @@ https://kahoo.blog/howto-wsl2-docker-install/
 ## 0. Windows Updateを実行してから行うこと
 
 ## 1. WSL2インストール
-まず、PowerShellで下記を実行する
+まず、PowerShellを管理者として開き下記を実行する
 ```
 wsl --install
 wsl --set-version Ubuntu-20.04 2
